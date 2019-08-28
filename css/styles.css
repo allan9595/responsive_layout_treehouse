@@ -1,0 +1,436 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*1024px big screen*/
+@media (min-width: 1024px){
+
+    /*the nav part centered the text for the navbar*/
+    nav{
+        text-align: center;
+        width: 100%;
+    }
+
+    /*get rid of the default list shape, auto margin and padding right ensure it at center*/
+    header nav ul {
+        list-style-type: none;
+        padding-right: 50px;
+        margin: auto;
+    }
+
+    /*give the navbar a padding space top and bottom, bold its font weight*/
+    ul li {
+        padding-top:1em;
+        padding-bottom: 1em;
+        background: #ffffff;
+        font-weight: 800;
+    }
+
+    /*delete any link decoration, set the default color to black, block level display*/
+    ul a:link {
+        display: inline-block;
+        padding: 1em;
+        color: black;
+        text-decoration: none;
+    }
+
+    ul a:visited {
+        color: #915904;
+    }
+
+    ul a:hover {
+        color: #5022e6;
+    }
+    img {
+        width: 100%;
+    }
+
+    /*first profile image is smaller than others*/
+    .profile img {
+        padding-top:8px;
+        padding-left: 60px;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
+
+    .profile p {
+        padding-top:0;
+        text-align: left;
+        width: 100%;
+    }
+  
+     /*the main content listed at the center, width 30%, and have space from top and bottom and in between*/
+    
+    /*give the content color*/
+    .content, hr {
+        color: #a3a19e
+    }
+    
+    /*give the article a top space 30px*/
+    article {
+        margin-top: 30px;
+    }
+
+    .main-content {
+        width: 50%;
+    }
+
+    .odd {
+        float: left;
+        margin-left:-10px;
+    }
+
+    .even {
+        float: right;
+        margin-right:-10px;
+    }
+    /*give the first title top and bottom space, bold font weight*/
+    .main-title {
+        margin: auto;
+        padding: 10em 0 2em 0;
+        font-weight: 800;
+        text-align: center;
+        display: block;
+
+    }
+
+    .contact-title {
+        margin: auto;
+        padding: 10em 0 2em 0;
+        font-weight: 800;
+        clear: both
+    }
+    main {
+        margin: 50px;
+    }
+
+
+    section, #contact {
+        display: block;
+        text-align: center;
+        padding-top:50px;
+    }
+
+    article p, article h3 {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        line-height: 2em;
+    }
+    /*set the footer part, give it a padding, set the margin and width*/
+    footer {
+        padding: 2em;
+    }
+    footer, hr{
+        font-weight: 800;
+        width: 90%;
+        margin: auto;
+    }
+
+    footer a:link {
+       float:right;
+       text-decoration: none;
+       color: black;
+    }
+
+    footer a:visited {
+        color: #915904;
+    }
+
+    footer a:hover {
+        color: #5022e6;
+    }
+    
+    .clearfix::after { 
+        content: " ";
+        display: block; 
+        height: 0; 
+        clear: both;
+     }
+ 
+     .small-device {
+         display: none;
+     }
+
+
+}
+
+
+/*768px tablet*/
+@media (min-width: 768px) and (max-width: 1023px){
+
+    /*the nav part centered the text for the navbar*/
+    nav{
+        text-align: center;
+        width: 100%;
+    }
+
+    /*get rid of the default list shape, auto margin and padding right ensure it at center*/
+    header nav ul {
+        list-style-type: none;
+        padding-right: 50px;
+        margin: auto;
+    }
+
+    /*give the navbar a padding space top and bottom, bold its font weight*/
+    ul li {
+        padding-top:1em;
+        padding-bottom: 1em;
+        background: #ffffff;
+        font-weight: 800;
+    }
+
+    /*delete any link decoration, set the default color to black, block level display*/
+    ul a:link {
+        display: inline-block;
+        padding: 1em;
+        color: black;
+        text-decoration: none;
+    }
+
+    ul a:visited {
+        color: #915904;
+    }
+
+    ul a:hover {
+        color: #5022e6;
+    }
+    img {
+        width: 100%;
+    }
+
+    /*first profile image is smaller than others*/
+    .profile img {
+        padding-top:8px;
+        padding-left: 60px;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: right;
+    }
+
+    .profile p {
+        padding-top:0;
+        text-align: left;
+        width: 100%;
+    }
+  
+     /*the main content listed at the center, width 30%, and have space from top and bottom and in between*/
+    
+    /*give the content color*/
+    .content, hr {
+        color: #a3a19e
+    }
+    
+    /*give the article a top space 30px*/
+    article {
+        margin-top: 30px;
+    }
+
+    .main-content {
+        width: 50%;
+    }
+
+    .odd {
+        float: left;
+        margin-left:-10px;
+    }
+
+    .even {
+        float: right;
+        margin-right:-10px;
+    }
+    /*give the first title top and bottom space, bold font weight*/
+    .main-title {
+        margin: auto;
+        padding: 10em 0 2em 0;
+        font-weight: 800;
+        text-align: center;
+        display: block;
+
+    }
+
+    .contact-title {
+        margin: auto;
+        padding: 10em 0 2em 0;
+        font-weight: 800;
+        clear: both
+    }
+    main {
+        margin: 50px;
+    }
+
+
+    section, #contact {
+        display: block;
+        text-align: center;
+        padding-top:50px;
+    }
+
+    article p, article h3 {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        line-height: 2em;
+    }
+    /*set the footer part, give it a padding, set the margin and width*/
+    footer {
+        padding: 2em;
+    }
+    footer .footer-name {
+        float: left;
+    }
+    footer, hr{
+        font-weight: 800;
+        width: 90%;
+        margin: auto;
+    }
+
+    footer a:link {
+       float:right;
+       text-decoration: none;
+       color: black;
+    }
+
+    footer a:visited {
+        color: #915904;
+    }
+
+    footer a:hover {
+        color: #5022e6;
+    }
+    
+    .clearfix::after { 
+        content: " ";
+        display: block; 
+        height: 0; 
+        clear: both;
+     }
+
+     .small-device{
+        display: none;
+    }
+
+
+    .page-title-bottom-section ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
+ 
+}
+
+/*320px mobile*/
+/*the above code used for import font size from google cdn*/ 
+@media (min-width: 320px) and (max-width : 767px) {
+
+    /*the nav part centered the text for the navbar*/
+    nav{
+        text-align: center;
+        width: 100%;
+    }
+
+    /*get rid of the default list shape, auto margin and padding right ensure it at center*/
+    header nav ul {
+        list-style-type: none;
+        padding-right: 40px;
+        margin: auto;
+    }
+
+    /*give the navbar a padding space top and bottom, bold its font weight*/
+    ul li {
+        padding-top:1em;
+        padding-bottom: 1em;
+        background: #ffffff;
+        font-weight: 800;
+    }
+
+    /*delete any link decoration, set the default color to black, block level display*/
+    ul a:link {
+        display: block;
+        padding: 1em;
+        color: black;
+        text-decoration: none;
+    }
+
+    ul a:visited {
+        color: #915904;
+    }
+
+    ul a:hover {
+        color: #5022e6;
+    }
+    img {
+        width: 100%;
+    }
+
+    /*first profile image is smaller than others*/
+    .profile img {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    /*the main content listed at the center, width 30%, and have space from top and bottom and in between*/
+    h2, h3, p, .content {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        line-height: 2em;
+        padding-top: 1em;
+    }
+
+    /*give the content color*/
+    .content, hr {
+        color: #a3a19e
+    }
+    
+    /*give the article a top space 30px*/
+    article {
+        margin-top: 30px;
+    }
+
+    /*give the first title top and bottom space, bold font weight*/
+    .main-title {
+        padding: 4em 0 2em 0;
+        font-weight: 800;
+    }
+
+    main {
+        margin: 50px;
+    }
+
+    /*set the footer part, give it a padding, set the margin and width*/
+    footer {
+        padding: 10px;
+    }
+
+    footer, hr{
+        font-weight: 800;
+        width: 90%;
+        margin: auto;
+    }
+
+    footer a:link {
+       float:right;
+       text-decoration: none;
+       color: black;
+    }
+
+    footer a:visited {
+        color: #915904;
+    }
+
+    footer a:hover {
+        color: #5022e6;
+    }
+    
+    
+}
+
+
+
