@@ -17,6 +17,8 @@ body {
     }
 
     header nav h1 {
+        margin-right:365px;
+        margin-left: 50px;
         float: left;
     }
 
@@ -138,20 +140,49 @@ body {
     }
     /*set the footer part, give it a padding, set the margin and width*/
     footer {
-        padding: 2em;
+        margin:auto;
+        width:100%
     }
+
+    footer .footer-name {
+        float: left;
+        margin-right:365px;
+        margin-left: 50px;
+    }
+    
+    footer nav{
+        width: 100%;
+        float: right;
+    }
+
     footer, hr{
-        font-weight: 800;
         width: 90%;
         margin: auto;
     }
-
-    footer a:link {
-       float:right;
-       text-decoration: none;
-       color: black;
+    /*get rid of the default list shape, auto margin and padding right ensure it at center*/
+    footer nav ul {
+        margin: auto;
     }
 
+    /*give the navbar a padding space top and bottom, bold its font weight*/
+    footer ul li {
+        width: 50%;
+        margin-right:20px;
+    }
+
+    /*delete any link decoration, set the default color to black, block level display*/
+    footer ul a:link {
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+        margin-right: -20px;
+        
+    }
+
+    .footer-name {
+        padding: 10px;
+    }
+  
     footer a:visited {
         color: #915904;
     }
@@ -166,6 +197,16 @@ body {
         height: 0; 
         clear: both;
      }
+
+     .small-device{
+        display: none;
+    }
+
+
+     .page-title-bottom-section ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
  
      .small-device {
          display: none;
@@ -179,7 +220,7 @@ body {
 @media (min-width: 768px) and (max-width: 1023px){
 
     /*the nav part centered the text for the navbar*/
-    nav{
+    header nav{
         text-align: center;
         width: 100%;
     }
@@ -214,6 +255,8 @@ body {
     ul a:hover {
         color: #5022e6;
     }
+
+
     img {
         width: 100%;
     }
@@ -235,8 +278,6 @@ body {
         width: 100%;
     }
   
-     /*the main content listed at the center, width 30%, and have space from top and bottom and in between*/
-    
     /*give the content color*/
     .content, hr {
         color: #a3a19e
@@ -293,25 +334,51 @@ body {
         margin: auto;
         line-height: 2em;
     }
-    /*set the footer part, give it a padding, set the margin and width*/
+  
     footer {
-        padding: 2em;
+        margin:auto;
+        width:100%
     }
+
     footer .footer-name {
         float: left;
+        margin-right:260px;
+        margin-left: -10px;
     }
+    
+    footer nav{
+        width: 100%;
+        float: right;
+    }
+
     footer, hr{
-        font-weight: 800;
         width: 90%;
         margin: auto;
     }
-
-    footer a:link {
-       float:right;
-       text-decoration: none;
-       color: black;
+    /*get rid of the default list shape, auto margin and padding right ensure it at center*/
+    footer nav ul {
+        margin: auto;
     }
 
+    /*give the navbar a padding space top and bottom, bold its font weight*/
+    footer ul li {
+        width: 50%;
+        margin-right:20px;
+    }
+
+    /*delete any link decoration, set the default color to black, block level display*/
+    footer ul a:link {
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+        margin-right: -20px;
+        
+    }
+
+    .footer-name {
+        padding: 10px;
+    }
+  
     footer a:visited {
         color: #915904;
     }
@@ -332,7 +399,7 @@ body {
     }
 
 
-    .page-title-bottom-section ul{
+     .page-title-bottom-section ul{
         text-decoration: none;
         list-style-type: none;
     }
