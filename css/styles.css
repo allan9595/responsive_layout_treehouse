@@ -9,29 +9,31 @@ body {
     nav{
         text-align: center;
         width: 100%;
+       
     }
 
     header {
         margin:auto;
-        width:100%
+        width:100%;
     }
 
+    /*header title push the nav to the right, also have space from the beginning*/
     header nav h1 {
-        margin-right:365px;
+        margin-right:200px;
         margin-left: 50px;
         float: left;
     }
 
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
-    header nav ul {
+    header nav ul li{
         list-style-type: none;
-        padding-right: 50px;
+        padding-right: 20px;
         margin: auto;
         display: inline-block;
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
-    ul li {
+    header nav ul li {
         padding-top:1em;
         padding-bottom: 1em;
         background: #ffffff;
@@ -39,20 +41,21 @@ body {
     }
 
     /*delete any link decoration, set the default color to black, block level display*/
-    ul a:link {
+    header ul li a:link {
         display: inline-block;
         padding: 1em;
         color: black;
         text-decoration: none;
     }
 
-    ul a:visited {
+    header ul li ul a:visited {
         color: #915904;
     }
 
-    ul a:hover {
+    header ul li a:hover {
         color: #5022e6;
     }
+
     img {
         width: 100%;
     }
@@ -78,11 +81,13 @@ body {
         padding-bottom: 5em;
     }
   
-     
+    .page-title {
+         color: #8a3406;
+     }
     
     /*give the content color*/
     .content, hr {
-        color: #a3a19e
+        color: #b83f0f;
     }
     
     /*give the article a top space 30px*/
@@ -90,10 +95,13 @@ body {
         margin-top: 30px;
     }
 
+ 
+
     .main-content {
         width: 50%;
     }
 
+    /*put three images on every line*/
     .desktop-left {
         width: 30%;
         float: left;
@@ -107,8 +115,25 @@ body {
     .desktop-right {
         width: 30%;
         float: right;
+    }
+
+    /*skill part three columns set up for desktop*/
+    .skill-desktop-left {
+        width: 30%;
+        float: left;
+    }
+
+    .skill-desktop-middle {
+        width:40%;
+        float: right;
         
     }
+
+    .skill-desktop-right {
+        width: 30%;
+        float: right;
+    }
+
     /*give the first title top and bottom space, bold font weight*/
     .main-title {
         margin: auto;
@@ -116,19 +141,23 @@ body {
         font-weight: 800;
         text-align: center;
         display: block;
-
+        color:#8a3406;
     }
 
-    .contact-title {
+    .contact-title, .skill-title {
         margin: auto;
         padding: 10em 0 2em 0;
         font-weight: 800;
         clear: both
     }
+
     main {
         margin: 50px;
     }
 
+    h2, h3 {
+        color: #8a3406;
+    }
 
     section, #contact {
         display: block;
@@ -136,12 +165,25 @@ body {
         padding-top:50px;
     }
 
+    .skill nav{
+        margin: auto;
+    }
+
+    .skill nav ul li {
+        text-decoration: none;
+        list-style-type: none;
+        color: #b83f0f;
+        padding-top:20px;
+    }
+   
+
     article p, article h3 {
         text-align: center;
         width: 70%;
         margin: auto;
         line-height: 2em;
     }
+
     /*set the footer part, give it a padding, set the margin and width*/
     footer {
         margin:auto;
@@ -150,15 +192,9 @@ body {
 
     footer .footer-name {
         float: left;
-        margin-right:365px;
-        margin-left: 50px;
+        color: #8a3406;
     }
     
-    footer nav{
-        width: 100%;
-        float: right;
-    }
-
     footer, hr{
         width: 90%;
         margin: auto;
@@ -169,29 +205,30 @@ body {
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
-    footer ul li {
-        width: 50%;
-        margin-right:20px;
-    }
-
     /*delete any link decoration, set the default color to black, block level display*/
-    footer ul a:link {
+    footer ul li {
+        padding: 27px 0 0 0;
+        margin-right: 10px;
         display: inline-block;
-        padding: 1em;
-        text-decoration: none;
-        margin-right: -20px;
-        
+        font-weight: 800;
     }
 
+    /*push the footer links to the right*/ 
     .footer-name {
         padding: 10px;
+        margin-right:450px;
     }
   
-    footer a:visited {
+    footer ul li a:link {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+    }
+    footer ul li a:visited {
         color: #915904;
     }
 
-    footer a:hover {
+    footer ul li a:hover {
         color: #5022e6;
     }
     
@@ -205,18 +242,6 @@ body {
      .small-device{
         display: none;
     }
-
-
-     .page-title-bottom-section ul{
-        text-decoration: none;
-        list-style-type: none;
-    }
- 
-     .small-device {
-         display: none;
-     }
-
-
 }
 
 
@@ -237,26 +262,26 @@ body {
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
-    ul li {
+    /*delete any link decoration, set the default color to black, block level display*/
+    header ul li  {
         padding-top:1em;
         padding-bottom: 1em;
         background: #ffffff;
         font-weight: 800;
-    }
-
-    /*delete any link decoration, set the default color to black, block level display*/
-    ul a:link {
         display: inline-block;
         padding: 1em;
+    } 
+
+    header ul li a:link {
         color: black;
         text-decoration: none;
     }
-
-    ul a:visited {
+   
+    header ul li a:visited {
         color: #915904;
     }
 
-    ul a:hover {
+    header ul li a:hover {
         color: #5022e6;
     }
 
@@ -282,9 +307,12 @@ body {
         width: 100%;
     }
   
+    .page-title {
+        color: #8a3406;
+    }
     /*give the content color*/
     .content, hr {
-        color: #a3a19e
+        color: #b83f0f;
     }
     
     /*give the article a top space 30px*/
@@ -305,6 +333,8 @@ body {
         float: right;
         margin-right:-10px;
     }
+
+   
     /*give the first title top and bottom space, bold font weight*/
     .main-title {
         margin: auto;
@@ -312,9 +342,12 @@ body {
         font-weight: 800;
         text-align: center;
         display: block;
-
+        color:#8a3406;
     }
 
+    h2, h3 {
+        color: #8a3406;
+    }
     .contact-title {
         margin: auto;
         padding: 10em 0 2em 0;
@@ -332,6 +365,23 @@ body {
         padding-top:50px;
     }
 
+
+    .skill nav{
+        margin: auto;
+    }
+
+    .skill nav ul {
+        text-decoration: none;
+        list-style-type: none;
+        color: #b83f0f;
+        text-align: center;
+    }
+
+    .skill nav ul li {
+        margin-right: 40px;
+        padding:10px;
+    }
+
     article p, article h3 {
         text-align: center;
         width: 70%;
@@ -346,15 +396,9 @@ body {
 
     footer .footer-name {
         float: left;
-        margin-right:260px;
-        margin-left: -10px;
+        color: #8a3406;
     }
     
-    footer nav{
-        width: 100%;
-        float: right;
-    }
-
     footer, hr{
         width: 90%;
         margin: auto;
@@ -365,29 +409,29 @@ body {
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
-    footer ul li {
-        width: 50%;
-        margin-right:20px;
-    }
-
     /*delete any link decoration, set the default color to black, block level display*/
-    footer ul a:link {
+    footer ul li {
+        padding: 27px 0 0 0;
+        margin-right: 10px;
         display: inline-block;
-        padding: 1em;
-        text-decoration: none;
-        margin-right: -20px;
-        
+        font-weight: 800;
     }
 
     .footer-name {
         padding: 10px;
+        margin-right:250px;
     }
   
-    footer a:visited {
+    footer ul li a:link {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+    }
+    footer ul li a:visited {
         color: #915904;
     }
 
-    footer a:hover {
+    footer ul li a:hover {
         color: #5022e6;
     }
     
@@ -400,14 +444,7 @@ body {
 
      .small-device{
         display: none;
-    }
-
-
-     .page-title-bottom-section ul{
-        text-decoration: none;
-        list-style-type: none;
-    }
- 
+    } 
 }
 
 /*320px mobile*/
@@ -469,11 +506,26 @@ body {
         margin: auto;
         line-height: 2em;
         padding-top: 1em;
+        color: #b83f0f;
     }
 
+    .skill nav{
+        margin: auto;
+    }
+
+    .skill nav ul {
+        text-decoration: none;
+        list-style-type: none;
+        color: #b83f0f;
+        text-align: center;
+    }
+
+    .skill nav ul li {
+        margin-right: 40px;
+    }
     /*give the content color*/
     .content, hr {
-        color: #a3a19e
+        color: #b83f0f;
     }
     
     /*give the article a top space 30px*/
@@ -485,6 +537,10 @@ body {
     .main-title {
         padding: 4em 0 2em 0;
         font-weight: 800;
+    }
+
+    .page-title {
+        color: #8a3406;
     }
 
     main {
