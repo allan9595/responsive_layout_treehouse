@@ -62,7 +62,7 @@ body {
         padding-top:8px;
         padding-left: 60px;
         display: block;
-        width: 50%;
+        max-width: 40%;
         margin-left: auto;
         margin-right: auto;
         float: right;
@@ -73,8 +73,12 @@ body {
         text-align: left;
         width: 100%;
     }
+
+    .profile {
+        padding-bottom: 5em;
+    }
   
-     /*the main content listed at the center, width 30%, and have space from top and bottom and in between*/
+     
     
     /*give the content color*/
     .content, hr {
@@ -492,6 +496,11 @@ body {
         padding: 10px;
     }
 
+    .footer-name{
+        display: inline;
+        padding-right: 90px
+    }
+
     footer, hr{
         font-weight: 800;
         width: 90%;
@@ -502,6 +511,7 @@ body {
        float:right;
        text-decoration: none;
        color: black;
+       padding-top: 8px;
     }
 
     footer a:visited {
@@ -512,7 +522,7 @@ body {
         color: #5022e6;
     }
     
-    .page-title-bottom-section {
+    .page-title-bottom-section ul {
         display: none;
     }
     
