@@ -106,7 +106,7 @@ body {
     footer {
         padding: 10px;
     }
-
+    
     .footer-name{
         display: inline;
         padding-right: 90px
@@ -304,12 +304,12 @@ body {
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
     footer nav ul {
         margin: auto;
+        float:right;
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
     /*delete any link decoration, set the default color to black, block level display*/
     footer ul li {
-        padding: 27px 0 0 0;
         margin-right: 10px;
         display: inline-block;
         font-weight: 800;
@@ -317,7 +317,7 @@ body {
     
     .footer-name {
         padding: 10px;
-        margin-right:250px;
+        width: unset;
     }
   
     footer ul li a:link {
@@ -365,7 +365,7 @@ body {
 
     /*header title push the nav to the right, also have space from the beginning*/
     header nav h1 {
-        margin-right:200px;
+        margin-right:150px;
         margin-left: 50px;
         float: left;
     }
@@ -441,8 +441,6 @@ body {
         margin-top: 30px;
     }
 
- 
-
     .main-content {
         width: 50%;
     }
@@ -456,7 +454,7 @@ body {
     .desktop-middle {
         width:30%;
         float: right;
-        margin-left: 45px;
+        margin-left: 57px;
     }
     .desktop-right {
         width: 30%;
@@ -512,7 +510,8 @@ body {
     }
 
     .skill nav{
-        margin: auto;
+        width:90%;
+        margin:auto;
     }
 
     .skill nav ul li {
@@ -520,6 +519,7 @@ body {
         list-style-type: none;
         color: #b83f0f;
         padding-top:20px;
+        margin-right:-30px;
     }
    
 
@@ -548,12 +548,12 @@ body {
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
     footer nav ul {
         margin: auto;
+        float: right;
     }
 
     /*give the navbar a padding space top and bottom, bold its font weight*/
     /*delete any link decoration, set the default color to black, block level display*/
     footer ul li {
-        padding: 27px 0 0 0;
         margin-right: 10px;
         display: inline-block;
         font-weight: 800;
@@ -562,7 +562,7 @@ body {
     /*push the footer links to the right*/ 
     .footer-name {
         padding: 10px;
-        margin-right:450px;
+        width:unset;
     }
   
     footer ul li a:link {
