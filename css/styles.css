@@ -216,6 +216,7 @@ body {
 
     .main-content {
         width: 50%;
+        height: 400px;
     }
 
     .odd {
@@ -249,7 +250,7 @@ body {
         clear: both
     }
     main {
-        margin: 50px;
+        margin: 30px;
     }
 
 
@@ -443,9 +444,18 @@ body {
 
     .main-content {
         width: 50%;
+        height: 400px;
     }
 
-    
+    .odd {
+        margin: unset;
+    }
+
+    .even {
+        
+        margin: unset;
+        
+    }
     /*put three images on every line*/
     .desktop-left {
         width: 30%;
@@ -453,9 +463,9 @@ body {
     }
 
     .desktop-middle {
-        width:30%;
+        width: 30%;
         float: right;
-        margin-left: 60px;
+        margin-left:50px;
     }
     .desktop-right {
         width: 30%;
@@ -497,7 +507,7 @@ body {
     }
 
     main {
-        margin: 30px;
+        margin: 40px;
     }
 
     h2, h3 {
@@ -526,7 +536,7 @@ body {
 
     article p, article h3 {
         text-align: center;
-        width: 60%;
+        width: 70%;
         margin: auto;
         line-height: 2em;
     }
