@@ -1,19 +1,23 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+
 /*320px mobile*/
 /*the above code used for import font size from google cdn*/ 
 /*the nav part centered the text for the navbar*/
+
 nav{
     text-align: center;
     width: 100%;
 }
+
 /*get rid of the default list shape, auto margin and padding right ensure it at center*/
 header nav ul {
     list-style-type: none;
     padding-right: 40px;
     margin: auto;
 }
+
 /*give the navbar a padding space top and bottom, bold its font weight*/
 ul li {
     padding-top:1em;
@@ -21,6 +25,7 @@ ul li {
     background: #ffffff;
     font-weight: 800;
 }
+
 /*delete any link decoration, set the default color to black, block level display*/
 ul a:link {
     display: block;
@@ -37,6 +42,7 @@ ul a:hover {
 img {
     width: 100%;
 }
+
 /*first profile image is smaller than others*/
 .profile img {
     display: block;
@@ -54,18 +60,22 @@ h2, h3, p, .content {
     padding-top: 1em;
     color: #b83f0f;
 }
+
 .skill nav{
     margin: auto;
 }
+
 .skill nav ul {
     text-decoration: none;
     list-style-type: none;
     color: #b83f0f;
     text-align: center;
 }
+
 .skill nav ul li {
     margin-right: 40px;
 }
+
 /*give the content color*/
 .content, hr {
     color: #b83f0f;
@@ -75,17 +85,21 @@ h2, h3, p, .content {
 article {
     margin-top: 30px;
 }
+
 /*give the first title top and bottom space, bold font weight*/
 .main-title {
     padding: 4em 0 2em 0;
     font-weight: 800;
 }
+
 .page-title {
     color: #8a3406;
 }
+
 main {
     margin: 50px;
 }
+
 /*set the footer part, give it a padding, set the margin and width*/
 footer {
     padding: 10px;
@@ -95,20 +109,24 @@ footer {
     display: inline;
     padding-right: 90px
 }
+
 footer, hr{
     font-weight: 800;
     width: 90%;
     margin: auto;
 }
+
 footer a:link {
     float:right;
     text-decoration: none;
     color: black;
     padding-top: 8px;
 }
+
 footer a:visited {
     color: #915904;
 }
+
 footer a:hover {
     color: #5022e6;
 }
@@ -126,12 +144,14 @@ footer a:hover {
       max-width: 1100px;
       margin: auto;
     }
+
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
     header nav ul {
         list-style-type: none;
         padding-right: 50px;
         margin: auto;
     }
+
     /*give the navbar a padding space top and bottom, bold its font weight*/
     /*delete any link decoration, set the default color to black, block level display*/
     header ul li  {
@@ -142,6 +162,7 @@ footer a:hover {
         display: inline-block;
         padding: 1em;
     } 
+
     header ul li a:link {
         color: black;
         text-decoration: none;
@@ -150,12 +171,15 @@ footer a:hover {
     header ul li a:visited {
         color: #915904;
     }
+
     header ul li a:hover {
         color: #5022e6;
     }
+
     img {
         width: 100%;
     }
+
     /*first profile image is smaller than others*/
     .profile img {
         padding-top:8px;
@@ -166,6 +190,7 @@ footer a:hover {
         margin-right: auto;
         float: right;
     }
+
     .profile p {
         padding-top:0;
         text-align: left;
@@ -175,6 +200,7 @@ footer a:hover {
     .page-title {
         color: #8a3406;
     }
+
     /*give the content color*/
     .content, hr {
         color: #b83f0f;
@@ -184,14 +210,17 @@ footer a:hover {
     article {
         margin-top: 30px;
     }
+
     .main-content {
         width: 50%;
         height: 400px;
     }
+
     .odd {
         float: left;
         margin-left:-10px;
     }
+
     .even {
         float: right;
         margin-right:-10px;
@@ -206,36 +235,44 @@ footer a:hover {
         display: block;
         color:#8a3406;
     }
+
     h2, h3 {
         color: #8a3406;
     }
+
     .contact-title {
         margin: auto;
         padding: 10em 0 2em 0;
         font-weight: 800;
         clear: both
     }
+
     main {
         margin: 50px;
     }
+
     section, #contact {
         display: block;
         text-align: center;
         padding-top:50px;
     }
+
     .skill nav{
         margin: auto;
     }
+
     .skill nav ul {
         text-decoration: none;
         list-style-type: none;
         color: #b83f0f;
         text-align: center;
     }
+
     .skill nav ul li {
         margin-right: 40px;
         padding:10px;
     }
+
     article p, article h3 {
         text-align: center;
         width: 70%;
@@ -261,11 +298,13 @@ footer a:hover {
         width: 90%;
         margin: auto;
     }
+    
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
     footer nav ul {
         margin: auto;
         float:right;
     }
+
     /*give the navbar a padding space top and bottom, bold its font weight*/
     /*delete any link decoration, set the default color to black, block level display*/
     footer ul li {
@@ -284,9 +323,11 @@ footer a:hover {
         list-style-type: none;
         color: black;
     }
+
     footer ul li a:visited {
         color: #915904;
     }
+
     footer ul li a:hover {
         color: #5022e6;
     }
@@ -297,6 +338,7 @@ footer a:hover {
         height: 0; 
         clear: both;
      }
+
      .small-device{
         display: none;
     } 
@@ -310,16 +352,19 @@ footer a:hover {
         width: 100%;
        
     }
+
     header {
         margin:auto;
         width:100%;
     }
+
     /*header title push the nav to the right, also have space from the beginning*/
     header nav h1 {
         margin-right:150px;
         margin-left: 50px;
         float: left;
     }
+
     /*get rid of the default list shape, auto margin and padding right ensure it at center*/
     header nav ul li{
         list-style-type: none;
@@ -327,6 +372,7 @@ footer a:hover {
         margin: auto;
         display: inline-block;
     }
+
     /*give the navbar a padding space top and bottom, bold its font weight*/
     header nav ul li {
         padding-top:1em;
@@ -334,6 +380,7 @@ footer a:hover {
         background: #ffffff;
         font-weight: 800;
     }
+
     /*delete any link decoration, set the default color to black, block level display*/
     header ul li a:link {
         display: inline-block;
@@ -341,15 +388,19 @@ footer a:hover {
         color: black;
         text-decoration: none;
     }
+
     header ul li ul a:visited {
         color: #915904;
     }
+
     header ul li a:hover {
         color: #5022e6;
     }
+
     img {
         width: 100%;
     }
+
     /*first profile image is smaller than others*/
     .profile img {
         padding-top:8px;
@@ -360,11 +411,13 @@ footer a:hover {
         margin-right: auto;
         float: right;
     }
+
     .profile p {
         padding-top:0;
         text-align: left;
         width: 100%;
     }
+
     .profile {
         padding-bottom: 5em;
     }
@@ -382,6 +435,7 @@ footer a:hover {
     article {
         margin-top: 30px;
     }
+
     .main-content {
         height: 400px;
         width: 50%;
@@ -400,29 +454,35 @@ footer a:hover {
         width: 30%;
         float: left;
     }
+
     .desktop-middle {
         width:30%;
         float: right;
         margin-left: 50px;
     }
+
     .desktop-right {
         width: 30%;
         float: right;
     }
+
     /*skill part three columns set up for desktop*/
     .skill-desktop-left {
         width: 30%;
         float: left;
     }
+
     .skill-desktop-middle {
         width:40%;
         float: right;
         
     }
+
     .skill-desktop-right {
         width: 30%;
         float: right;
     }
+
     /*give the first title top and bottom space, bold font weight*/
     .main-title {
         margin: auto;
@@ -432,28 +492,34 @@ footer a:hover {
         display: block;
         color:#8a3406;
     }
+
     .contact-title, .skill-title {
         margin: auto;
         font-weight: 800;
         clear: both
     }
+
     main {
         width: 980px;
         margin: 30px auto;
         padding: 25px;
     }
+
     h2, h3 {
         color: #8a3406;
     }
+
     section, #contact {
         display: block;
         text-align: center;
         padding-top:50px;
     }
+
     .skill nav{
         width:90%;
         margin:auto;
     }
+
     .skill nav ul li {
         text-decoration: none;
         list-style-type: none;
@@ -468,6 +534,7 @@ footer a:hover {
         margin: auto;
         line-height: 2em;
     }
+
     /*set the footer part, give it a padding, set the margin and width*/
     footer .footer-name {
         float: left;
@@ -484,6 +551,7 @@ footer a:hover {
         margin: auto;
         float: right;
     }
+
     /*give the navbar a padding space top and bottom, bold its font weight*/
     /*delete any link decoration, set the default color to black, block level display*/
     footer ul li {
@@ -491,6 +559,7 @@ footer a:hover {
         display: inline-block;
         font-weight: 800;
     }
+
     /*push the footer links to the right*/ 
     .footer-name {
         padding: 10px;
@@ -502,9 +571,11 @@ footer a:hover {
         list-style-type: none;
         color: black;
     }
+
     footer ul li a:visited {
         color: #915904;
     }
+
     footer ul li a:hover {
         color: #5022e6;
     }
@@ -515,6 +586,7 @@ footer a:hover {
         height: 0; 
         clear: both;
      }
+     
      .small-device{
         display: none;
     }
