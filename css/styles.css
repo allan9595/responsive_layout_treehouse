@@ -445,6 +445,7 @@ body {
         width: 50%;
     }
 
+    
     /*put three images on every line*/
     .desktop-left {
         width: 30%;
@@ -454,7 +455,7 @@ body {
     .desktop-middle {
         width:30%;
         float: right;
-        margin-left: 57px;
+        margin-left: 60px;
     }
     .desktop-right {
         width: 30%;
@@ -496,7 +497,7 @@ body {
     }
 
     main {
-        margin: 50px;
+        margin: 30px;
     }
 
     h2, h3 {
@@ -525,7 +526,7 @@ body {
 
     article p, article h3 {
         text-align: center;
-        width: 70%;
+        width: 60%;
         margin: auto;
         line-height: 2em;
     }
