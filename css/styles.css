@@ -283,11 +283,15 @@ body {
         line-height: 2em;
     }
   
+    .page-title-bottom-section ul {
+        display: inline-block;
+    }
+    
     footer {
         margin:auto;
         width:100%
     }
-
+    
     footer .footer-name {
         float: left;
         color: #8a3406;
@@ -310,7 +314,7 @@ body {
         display: inline-block;
         font-weight: 800;
     }
-
+    
     .footer-name {
         padding: 10px;
         margin-right:250px;
@@ -339,6 +343,8 @@ body {
      .small-device{
         display: none;
     } 
+
+    
 }
 
 
